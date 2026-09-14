@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soutenez Les Génies Films</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Soutenez Les Génies Films, groupe cinématographique de Bukavu, Kadutu, Cimpunda, RDC, et participez au développement du cinéma local.">
+  <meta name="keywords" content="soutenir Les Génies Films, cinéma Bukavu, cinéma RDC, don cinéma congolais, Cimpunda, Kadutu">
+  <meta name="author" content="Les Génies Films">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="fr">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Soutenez Les Génies Films">
+  <meta property="og:description" content="Aidez le groupe cinématographique Les Génies Films à développer le cinéma de Bukavu.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="A.jpg">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-light">
+
+  <!-- Écran de chargement -->
+  <div id="gf-loader">
+    <img src="A.jpg" alt="Logo Les Génies Films">
+    <p>LES GÉNIES FILMS</p>
+    <div class="gf-filmstrip">
+      <span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm bg-white">
+    <div class="container">
+      <a class="navbar-brand fw-bold gf-title" href="index.html">
+        <img src="A.jpg" alt="Logo Les Génies Films" width="36" height="36" class="rounded-circle me-2">
+        Les Génies Films
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#gfNavbar" aria-controls="gfNavbar" aria-expanded="false" aria-label="Ouvrir le menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="gfNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="historique.html">Historique</a></li>
+          <li class="nav-item"><a class="nav-link" href="soutenir.html">Soutenir</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <button id="gf-theme-toggle" type="button">
+              <i class="bi bi-moon-stars-fill"></i> Mode sombre
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section soutenir -->
+  <header class="text-center py-5 bg-light-section">
+    <div class="container">
+      <h1 class="gf-title">Soutenez Les Génies Films</h1>
+    </div>
+  </header>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-8">
+          <p class="fs-5">
+            Le cinéma demande du temps, du matériel, de la créativité et des moyens. Votre soutien
+            peut nous aider à développer nos productions, améliorer notre matériel et accompagner
+            les jeunes talents de Bukavu.
+          </p>
+          <p class="fs-5 fw-semibold">
+            Chaque contribution, petite ou grande, peut participer au développement du cinéma local.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt-4">
+        <div class="col-lg-8">
+          <div class="row g-3 text-start">
+            <div class="col-md-6">
+              <p><i class="bi bi-check2-circle text-success"></i> Produire des films</p>
+              <p><i class="bi bi-check2-circle text-success"></i> Améliorer le matériel</p>
+              <p><i class="bi bi-check2-circle text-success"></i> Organiser les activités</p>
+            </div>
+            <div class="col-md-6">
+              <p><i class="bi bi-check2-circle text-success"></i> Accompagner les acteurs</p>
+              <p><i class="bi bi-check2-circle text-success"></i> Développer de nouveaux projets</p>
+              <p><i class="bi bi-check2-circle text-success"></i> Améliorer la qualité des productions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bouton soutien WhatsApp -->
+  <section class="py-5 bg-light-section text-center">
+    <div class="container">
+      <div class="support-arrow">↓</div>
+      <p class="fs-5 fw-semibold mb-2">Soutenez-nous</p>
+      <div class="support-arrow mb-3">↓</div>
+      <a
+        id="gf-support-btn"
+        class="btn whatsapp-btn shadow"
+        target="_blank"
+        rel="noopener"
+        href="https://wa.me/243902553512?text=Bonjour%20Les%20G%C3%A9nies%20Films%2C%20je%20souhaite%20soutenir%20votre%20groupe%20et%20contribuer%20au%20d%C3%A9veloppement%20du%20cin%C3%A9ma%20de%20Bukavu.%20Pouvez-vous%20m%27indiquer%20comment%20proc%C3%A9der%20%3F%20Merci."
+      >
+        <i class="bi bi-whatsapp"></i> Soutenir le groupe
+      </a>
+      <p class="mt-3 text-muted">
+        <i class="bi bi-chat-dots"></i> Nous contacter sur WhatsApp : +243 902 553 512
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4">
+    <div class="container text-center">
+      <h5 class="gf-title mb-2">LES GÉNIES FILMS</h5>
+      <p class="mb-1">Bukavu – Kadutu – Cimpunda<br>République démocratique du Congo</p>
+      <p class="fst-italic mb-3">« Soutenons le cinéma de Bukavu »</p>
+      <div class="mb-3">
+        <!-- Liens réseaux sociaux à ajouter -->
+        <a href="#" class="mx-2" aria-label="YouTube"><i class="bi bi-youtube fs-4"></i></a>
+        <a href="#" class="mx-2" aria-label="TikTok"><i class="bi bi-tiktok fs-4"></i></a>
+        <a href="#" class="mx-2" aria-label="Facebook"><i class="bi bi-facebook fs-4"></i></a>
+        <a href="#" class="mx-2" aria-label="Instagram"><i class="bi bi-instagram fs-4"></i></a>
+      </div>
+      <hr class="border-secondary">
+      <p class="small mb-0">Site web pro</p>
+      <p class="small text-muted">Ciza Balola Séraphin — concepteur du site et secrétaire du groupe Les Génies Films.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
